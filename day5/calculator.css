@@ -1,0 +1,38 @@
+
+.wrap{
+  width:370px;
+  margin: auto;
+  height: auto;
+  background: black;
+  padding: 15px;
+  margin-top: 5%;
+}
+
+
+
+input[type=text]{
+  width: 92%;
+  padding: 10px;
+  font-size: 22px;
+  font-weight: bold;
+  margin-top: 20px;
+  border-radius: 7px;
+}
+input[type=button]{
+  width: 89px;
+  padding: 10px;
+  font-size: 22px;
+  font-weight: bold;
+ border-radius: 14px;
+ background:#E2BAB1;
+}
+#del{
+  border-radius:8;
+  width:74.6%;
+  background:#ACAEC5;
+
+
+}
+#sep{
+  background-color: #B0E1FF;
+}
