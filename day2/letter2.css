@@ -1,0 +1,23 @@
+body{
+  background: url(image.jpg);
+  background-size: cover;
+}
+
+
+h1{
+  color:black;
+  font-size: 120px
+  
+}
+p{
+  font-family:'Times New Roman', Times, serif 
+}
+
+.table{
+  box-shadow: black;
+  background-color: lightgrey;
+  width: 300px;
+  border: 15px solid peru;
+  padding: 50px;
+  margin: 20px;
+}

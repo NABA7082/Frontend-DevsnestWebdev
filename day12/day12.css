@@ -1,0 +1,115 @@
+*
+{
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+  box-sizing: border-box;
+  font-size: 30px;
+  
+}
+.main-div{
+  width:100vw;
+  display:grid;
+  place-items: center;
+  min-height:100vh;
+  background-color: #8E49E8;
+  background-position:center;
+}
+.inner-div li{
+  margin-top:19px;
+  list-style:none;
+  font-size:20px;
+}
+
+  
+
+
+
+.inner-div{
+  box-shadow:0 1rem 1rem -0.7rem rgba(0,0,0,0.4);
+  background-color:whitesmoke;
+  
+  
+  padding:1rem 2rem;
+  border-radius:1rem;
+  
+  
+
+
+}
+.heading{
+  font-style: italic;
+}
+.inner-div h2{
+
+
+font-size: 30px;
+  font-weight:bolder;
+  margin:1rem 0 2rem 0;
+}
+.inputf input{
+  font-size:30px;
+  width:85%;
+  border:1px solid #8E49E8;
+  border-radius: 3px;
+  padding-left: 15px;;
+}
+.inputf input:focus{
+  border-color: #8E49E8;
+}
+.btn{
+  width: 50px;
+  height: 50px;
+  border: none;
+  color: #fff;
+  margin-left: 5px;
+  font-size: 21px;
+  outline: none;
+  background: #8E49E8;
+  cursor: pointer;
+  border-radius: 3px;
+  opacity: 0.6;
+  pointer-events: none;
+  transition: all 0.3s ease;
+  opacity:0.6;
+  pointer-events:none;
+}
+.inputf button.active, .btn{
+  opacity:1;
+  pointer-events: auto;
+}
+.btn:hover{
+  background-color: mediumpurple;
+}
+
+.task{
+  height: 50px;
+  /* width: 70%; */
+  background-color: white;
+  padding: 5px 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 2px solid gray;
+  margin-bottom: 3px;
+  overflow: hidden;
+}
+
+.task span{
+  font-size: 20px;
+  font-family: 'Poppins',sans-serif;
+
+  font-weight: 500;
+  right: -70px;
+}
+
+.task button{
+  height: 100%;
+  width: 40px;
+  border-radius: 5px;
+  background-color: purple;
+  color: white;
+}
+  
+
+
