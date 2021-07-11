@@ -1,0 +1,37 @@
+* {
+  margin: 0%;
+  padding:0%;
+  box-sizing: border-box;
+}
+
+.app{
+  
+  border: 10px solid black;
+  min-height: 350px;
+  width: 350px;
+  
+  margin: auto;
+  margin-top: 150px;
+  
+  
+  
+  
+
+}
+
+.board .black{
+  float: left;
+  background-color:black;
+  height: 30px;
+  width: 30px;
+  padding:9px;
+  
+}
+.board .white{
+  float: left;
+  background-color:white;
+  height: 30px;
+  width: 30px;
+  margin: 0px;
+  
+}
